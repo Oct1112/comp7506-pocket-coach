@@ -1,0 +1,63 @@
+{
+  "podcast": {
+    "title": "The Human Element of the AI Revolution",
+    "link": "https://youtu.be/Ctjiatnd6Xk?si=zixUPuoNqRD-6DpT",
+    "guest": "Dr. Fei-Fei Li",
+    "description": "A deep dive into how human-centered data sparked the AI boom and why 'spatial intelligence' is the next big frontier.",
+    "keyTakeaways": [
+      "AI is a human-inspired tool created by people to impact and improve people's lives.",
+      "Massive labeled datasets were the essential spark that finally ended the 'AI winter'.",
+      "Spatial intelligence allows machines to move beyond chat and actually navigate the 3D world."
+    ],
+    "fiveMinReadSummary": "You might be wondering how we went from computers being a bit 'meh' at recognizing things to the mind-blowing tech we have today. Actually, it’s simpler than it looks, and it all started with a visionary scientist named Dr. Fei-Fei Li. She realized that for machines to think like us, they needed to learn like us—by seeing millions of examples rather than just following rigid rules. This insight led to the creation of ImageNet, a massive library of 15 million images that acted like a digital textbook for the first modern AI models.\n\nSo, the takeaway here is that AI isn't some magical 'artificial' thing; it's a reflection of human intelligence and collective effort. Dr. Li explains that the 'golden recipe' for the AI boom we’re in right now is a mix of three ingredients: huge amounts of data, brain-like software called neural networks, and super-fast computer chips called GPUs. While most of us are currently used to talking to chatbots, the next big step is giving these digital 'brains' a way to understand the physical world around them, which she calls spatial intelligence.\n\nActually, this is where it gets really exciting because it moves AI from the screen to the real world. Imagine robots that can help in disasters, or designers using 'world models' to create immersive environments instantly. Dr. Li believes that as long as we keep 'human dignity' and agency at the center of how we build these tools, AI will be a net positive for everyone. It’s not about machines taking over, but about augmenting what humans can do, whether you're a nurse, a farmer, or an artist.",
+  },
+  "cards": [
+    {
+      "keyInsight": "Large-scale data is the secret fuel that makes modern artificial intelligence actually work.",
+      "explanation": "Imagine trying to learn what a 'teapot' is by only looking at one single drawing. It would be pretty tough to recognize every teapot in the world! Humans learn by seeing millions of things as they grow up. ImageNet did exactly this for computers by giving them a massive digital library of 15 million images to study until they finally understood what objects really look like.",
+      "quote": "I think my students and I conjectured that a very critically-overlooked ingredient of bringing AI to life is big data.",
+      "actionItem": "Review a current project and list three ways that gathering more diverse examples or 'data' could improve your results.",
+      "tags": [
+        "AI",
+        "Growth"
+      ],
+      "glossary": [
+        {
+          "term": "ImageNet",
+          "definition": "A massive dataset of 15 million labeled images that was used to train the first modern AI models."
+        },
+        {
+          "term": "Big Data",
+          "definition": "Extremely large datasets that can be analyzed computationally to reveal patterns and trends."
+        }
+      ]
+    },
+    {
+      "keyInsight": "Spatial intelligence is the 'missing piece' needed for AI to understand the 3D world.",
+      "explanation": "Right now, many AI models are like students who have read every book in the library but have never actually left their room. Spatial intelligence is what allows an AI to understand depth, movement, and interaction. It's the difference between a chatbot talking about a kitchen and a robot actually being able to navigate that kitchen to help tidy it up.",
+      "quote": "Spatial intelligence and world modeling is as important, if not more, to language models and complementary to language models.",
+      "actionItem": "Visit worldlabs.ai to explore 'Marble' and see how spatial intelligence creates an interactable 3D world.",
+      "tags": [
+        "AI",
+        "Strategy"
+      ],
+      "glossary": [
+        {
+          "term": "Spatial Intelligence",
+          "definition": "The ability of an AI to understand, reason about, and interact with the physical, 3D world."
+        },
+        {
+          "term": "World Model",
+          "definition": "A type of AI model that can create, reason within, and interact with simulated 3D environments."
+        }
+      ]
+    }
+  ],
+  "recommendedBooks": [
+    {
+      "title": "The Worlds I See",
+      "author": "Dr. Fei-Fei Li",
+      "reason": "Dr. Li mentions this book as the place where she shares the stories of the many heroes and researchers who inspired her journey in AI."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "podcast": {
+    "title": "The Founder’s Return to the Details",
+    "link": "https://youtu.be/R5_ypwiRIyo?si=zS7HrVGucw1yprKC",
+    "guest": "Brian Chesky",
+    "description": "Brian Chesky explains why he’s taking back the reins at Airbnb by merging product and marketing.",
+    "keyTakeaways": [
+      "Leaders should be in the details to ensure work meets the company's vision.",
+      "Airbnb merged product management and marketing into one senior, highly influential function.",
+      "Moving from a divisional to a functional model eliminates politics and speeds up innovation."
+    ],
+    "fiveMinReadSummary": "Have you ever wondered why some huge companies start to feel slow and boring, while others stay fast and creative? Brian Chesky, the CEO of Airbnb, realized his company was falling into that trap. He noticed that as Airbnb grew into ten different divisions, it became a bureaucracy where teams spent more time in meetings than actually building things. To fix it, he did something controversial: he stopped apologizing for wanting to be in the details and took back control of the product. He actually merged product management with marketing because, as he puts it, you can't truly build a great product if you don't know how to tell its story to the world.\n\nActually, it's simpler than it looks when you see how it works on the ground. Instead of dozens of separate teams running in different directions, the entire company now operates on a single, rolling two-year roadmap. It's like a giant rowing team where every single person is pulling in the same direction at the same time. Brian himself reviews the work every week—not to micromanage, but to stay in the details. He compares it to a car designer looking at a prototype; if the door handle feels wrong, he can identify exactly which part of the process needs help. This one shared consciousness means that even with thousands of employees, the final app feels like it was designed by one small, cohesive team.\n\nSo, why does this matter to you? The takeaway here is that true leadership isn't just about hiring people and leaving them alone—it's about setting a clear pace and a high standard. Brian uses a trick called \"adding a zero,\" which means asking what it would take to make something 10 times better, forcing his team to throw out old habits and think from first principles. By moving back to a design-led functional model and focusing on senior experts rather than layers of management, Airbnb is proving that you can scale a business without losing its soul. It's a reminder that if you want to create something world-class, you have to be willing to get your hands dirty and keep your eye on every single brick in the castle.",
+  },
+  "cards": [
+    {
+      "keyInsight": "Great leaders don't just delegate; they stay deeply involved in the product details.",
+      "explanation": "Imagine you're building a LEGO castle with friends. If you just say 'make a castle' and walk away, the towers might not fit together. Being 'in the details' means sitting on the floor with them and checking every brick to ensure they snap together perfectly. It's not about bossing people around; it's about knowing enough about the work to help the team when they get stuck.",
+      "quote": "If you don't know the details, how do you know people are doing a good job?",
+      "actionItem": "Review one project you have delegated this week and ask three specific 'how' or 'why' questions about its progress.",
+      "tags": [
+        "Leadership",
+        "Strategy"
+      ],
+      "glossary": [
+        {
+          "term": "Micromanagement",
+          "definition": "The negative practice of telling people exactly how to do every tiny step of their job instead of guiding the final outcome."
+        }
+      ]
+    },
+    {
+      "keyInsight": "Organize your company by what people do, not by the products they sell.",
+      "explanation": "A divisional company is like a mall with ten different stores that never talk to each other. A functional company is like one big kitchen where the chefs, waiters, and hosts all work for the same restaurant. When everyone reports to one central leader by their expertise (like all designers in one group), you avoid office politics and ensure the whole app feels like it was made by one person.",
+      "quote": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
+      "actionItem": "Map out your current team's dependencies to see where different groups might be blocking each other.",
+      "tags": [
+        "Strategy",
+        "Leadership"
+      ],
+      "glossary": [
+        {
+          "term": "Divisional Model",
+          "definition": "An organizational structure where a company is split into several independent business units based on product lines or regions."
+        }
+      ]
+    },
+    {
+      "keyInsight": "Use 10X goals to force your team to think differently about problems.",
+      "explanation": "If you want to run a mile one minute faster, you just run harder. But if you want to run a mile ten times faster, you have to build a car. Adding a zero to your goal isn't about working ten times more hours; it's about throwing out the old, slow way of doing things and finding a completely new path.",
+      "quote": "What would it take to be 10X bigger or do something 10 times better?",
+      "actionItem": "Take your main goal for this quarter and ask yourself: 'What would I have to change if this goal was 10 times larger?'",
+      "tags": [
+        "Growth",
+        "Strategy"
+      ],
+      "glossary": [
+        {
+          "term": "First Principle Thinking",
+          "definition": "Breaking a problem down to its most basic, foundational truths to build a new solution from scratch."
+        }
+      ]
+    }
+  ],
+  "recommendedBooks": [
+    {
+      "title": "High Output Management",
+      "author": "Andrew Grove",
+      "reason": "Brian references Grove's ideas on competency and motivation as the key to pushing a team to its full potential."
+    }
+  ]
+}
