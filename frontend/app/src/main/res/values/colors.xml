@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand colors -->
+    <color name="navy">#002B5B</color>
+    <color name="navy_light">#1A4A7A</color>
+    <color name="teal_accent">#00474F</color>
+
+    <!-- Background -->
+    <color name="bg_cream">#FCFCFA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_white">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="text_blue_200">#BFDBFE</color>
+    <color name="text_blue_100">#DBEAFE</color>
+
+    <!-- Borders -->
+    <color name="border_light">#E2E8F0</color>
+    <color name="border_slate100">#F1F5F9</color>
+
+    <!-- Amber (action item) -->
+    <color name="amber_50">#FFFBEB</color>
+    <color name="amber_100">#FEF3C7</color>
+    <color name="amber_800">#92400E</color>
+    <color name="amber_900">#78350F</color>
+
+    <!-- Chip -->
+    <color name="chip_bg_unselected">#F1F5F9</color>
+
+    <!-- Progress / gradient placeholders -->
+    <color name="gradient_amber_start">#B45309</color>
+    <color name="gradient_amber_end">#78350F</color>
+    <color name="gradient_slate_start">#475569</color>
+    <color name="gradient_slate_end">#1E293B</color>
+    <color name="gradient_blue_start">#1E40AF</color>
+    <color name="gradient_blue_end">#0F172A</color>
+</resources>

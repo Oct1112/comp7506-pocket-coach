@@ -1,0 +1,46 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated APK / AAB / mapping
+*.apk
+*.aab
+*.ap_
+*.aar
+output-metadata.json
+mapping/
+
+# Logs
+*.log
+
+# Signing / secrets
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+keystore.properties
+.env
+.env.*
+
+# Kotlin / Java crash dumps
+hs_err_pid*
+replay_pid*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

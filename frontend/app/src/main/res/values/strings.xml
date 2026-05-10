@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pocket Coach</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_ask">Ask</string>
+    <string name="nav_library">Library</string>
+    <string name="todays_lesson">Today\'s Lesson</string>
+    <string name="five_min_read">5 Min Read</string>
+    <string name="daily_books">Daily Books</string>
+    <string name="key_insight">Key Insight</string>
+    <string name="action_item">Action Item</string>
+    <string name="save">Save</string>
+    <string name="ask_placeholder">Ask anything about today\'s lesson…</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="library_title">My Library</string>
+    <string name="in_progress">In Progress</string>
+    <string name="saved">Saved</string>
+    <string name="downloads">Downloads</string>
+    <string name="extracts">Extracts</string>
+    <string name="my_spaces">My Spaces</string>
+    <string name="new_space">+ New Space</string>
+    <string name="lenny_podcast">Lenny\'s Podcast</string>
+    <string name="source_prefix">SOURCE: </string>
+    <string name="glossary">Glossary</string>
+    <string name="min_read">min read</string>
+    <string name="key_takeaways">Key Takeaways</string>
+    <string name="read_summary">Read Summary</string>
+    <string name="private_label">Private</string>
+</resources>

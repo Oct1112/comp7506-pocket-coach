@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_card"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:layout_marginEnd="16dp">
+
+    <FrameLayout
+        android:id="@+id/layoutBookCover"
+        android:layout_width="52dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_book_cover_started">
+
+        <ImageView
+            android:id="@+id/ivBookIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_book_open"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:lineSpacingExtra="1dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginBottom="4dp"
+            tools:text="Thinking In Bets" />
+
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:letterSpacing="-0.02"
+            android:textColor="@color/text_secondary"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginBottom="10dp"
+            tools:text="Annie Duke" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:max="100"
+            android:progress="45"
+            android:progressTint="@color/navy"
+            android:progressBackgroundTint="#D8E1EA" />
+
+        <TextView
+            android:id="@+id/tvNotStarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not started"
+            android:textSize="10sp"
+            android:textColor="@color/text_tertiary"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/btnPlay"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_pill_navy"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_play"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+</LinearLayout>

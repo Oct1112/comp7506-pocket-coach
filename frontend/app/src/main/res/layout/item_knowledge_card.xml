@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:layout_marginBottom="24dp"
+    android:padding="24dp">
+
+    <!-- Key Insight label row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_lightbulb"
+            app:tint="@color/teal_accent" />
+
+        <TextView
+            android:id="@+id/tvTypeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KEY INSIGHT"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:letterSpacing="0.12"
+            android:textColor="@color/teal_accent" />
+    </LinearLayout>
+
+    <!-- Key Insight text -->
+    <TextView
+        android:id="@+id/tvKeyInsight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginBottom="16dp"
+        tools:text="Implement strategic friction to drive deeper user activation." />
+
+    <!-- Explanation -->
+    <TextView
+        android:id="@+id/tvExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginBottom="16dp"
+        tools:text="Cutting all steps to minimize time-to-value often fails to help users understand why a product is relevant to them." />
+
+    <!-- Quote block -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_quote_block"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_quote"
+            app:tint="@color/navy"
+            android:alpha="0.2" />
+
+        <TextView
+            android:id="@+id/tvQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:textColor="@color/text_primary"
+            android:lineSpacingExtra="3dp"
+            tools:text="&quot;Cut friction when it doesn&apos;t add to the experience of helping a user understand why the product is for them.&quot;" />
+    </LinearLayout>
+
+    <!-- Action Item block -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_amber"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRY THIS TODAY"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:letterSpacing="0.12"
+            android:textColor="@color/amber_800"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvActionItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/amber_900"
+            android:lineSpacingExtra="2dp"
+            tools:text="Audit your current onboarding flow and identify one stage where adding a clarifying question could improve routing to aha moments." />
+    </LinearLayout>
+
+    <!-- Glossary section -->
+    <LinearLayout
+        android:id="@+id/layoutGlossary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GLOSSARY"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="6dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutGlossaryItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_slate100"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Footer: source + save -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvSource"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:textColor="@color/text_tertiary"
+            tools:text="SOURCE: Lenny&apos;s Podcast · Ami Vora" />
+
+        <LinearLayout
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/tvSaveLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="4dp"
+                android:src="@drawable/ic_bookmark"
+                app:tint="@color/navy" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
