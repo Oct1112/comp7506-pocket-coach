@@ -15,6 +15,7 @@ object MockDataSource {
         podcastId = benPodcast.podcastId,
         title = benPodcast.title,
         description = "Discover why real leadership is about making the decisions nobody likes and how to build the psychological muscle to survive the 'CEO abyss.'",
+        deepDiveUrl = "https://youtu.be/KPxTekxQjzc?si=_OYTtoz351tRXyM3",
         ctaLabel = "Deep Dive"
     )
 
@@ -26,6 +27,7 @@ object MockDataSource {
             "Success isn't one big win, but a chain of small, hard, correct choices.",
             "Great CEOs don't tutor executives; they find world-class talent to lead them."
         ),
+        fullSummary = "Imagine you're standing at the edge of a dark abyss and everyone is looking at you to pick a direction. That's what it's like being a CEO. Ben explains that leadership isn't about being popular; it's about clicking into that \"psychological muscle\" to make the one choice that's slightly less horrible than the rest. If everyone already agreed with you, you wouldn't actually be adding any value - they would have done it without you!\n\nYou might be wondering how anyone actually gets good at this without losing their mind. Actually, it's simpler than it looks when you realize that most people fail because they lose confidence, not because they lack an MBA. Ben shares a story about a pilot to explain that success isn't one giant leap, but a chain of small, difficult decisions. It's like avoiding a plane crash by breaking a cycle of bad choices before they stack up. Instead of hesitating - which is the deadliest thing a leader can do - you have to run toward the things that scare you.\n\nWhat's more, you have to realize that you can't be a tutor for your senior staff. If you're a CEO who doesn't know marketing, you can't \"teach\" someone to be a world-class marketer; you have to find someone who makes you and the company better. This is what Ben calls \"managerial leverage\" - when your team is telling you how to move the company forward instead of the other way around.\n\nSo, the takeaway here is that greatness comes from leaning into your strengths and having the \"irrational desire\" to build something bigger than yourself. Even in the AI era, the same rules apply: we aren't in a bubble because these businesses have real economics, but the winners will be those who can solve the messy, \"fat tail\" problems of human behavior. Success is about building the ark before the rain starts.",
         buttonLabel = "Read Summary"
     )
 

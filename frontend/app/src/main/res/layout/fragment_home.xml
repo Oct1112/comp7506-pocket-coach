@@ -61,11 +61,14 @@
                 tools:text="Success in this era is not about avoiding friction, but about having the product sense to know when to take an exponential bet." />
 
             <LinearLayout
+                android:id="@+id/layoutDeepDive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:background="@drawable/bg_pill_white"
+                android:clickable="true"
+                android:focusable="true"
                 android:paddingHorizontal="24dp"
                 android:paddingVertical="12dp">
 
@@ -113,10 +116,13 @@
                     android:textColor="@color/text_primary" />
 
                 <LinearLayout
+                    android:id="@+id/layoutViewAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:focusable="true">
 
                     <TextView
                         android:layout_width="wrap_content"

@@ -10,14 +10,27 @@ import com.hkucs.pocketcoach.network.RetrofitClient
  */
 class Repository {
 
+    private fun applyTodaysLessonFallback(lesson: TodaysLesson): TodaysLesson {
+        val fallbackUrl = when (lesson.podcastId) {
+            "pod_ben_horowitz_hard_things" -> "https://youtu.be/KPxTekxQjzc?si=_OYTtoz351tRXyM3"
+            else -> ""
+        }
+
+        return lesson.copy(
+            deepDiveUrl = if (lesson.deepDiveUrl.isBlank()) fallbackUrl else lesson.deepDiveUrl
+        )
+    }
+
     // ---- Home ----
 
     suspend fun getTodaysLesson(): TodaysLesson {
-        return if (ApiConfig.USE_MOCK) {
+        val lesson = if (ApiConfig.USE_MOCK) {
             MockDataSource.todaysLesson
         } else {
             RetrofitClient.apiService.getTodaysLesson().body()!!.lesson
         }
+
+        return applyTodaysLessonFallback(lesson)
     }
 
     suspend fun getFiveMinRead(): FiveMinRead {

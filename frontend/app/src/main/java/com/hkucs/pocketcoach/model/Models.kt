@@ -11,6 +11,7 @@ data class TodaysLesson(
     val podcastId: String,
     val title: String,
     val description: String,
+    val deepDiveUrl: String = "",
     val ctaLabel: String = "Deep Dive"
 )
 
@@ -18,6 +19,7 @@ data class FiveMinRead(
     val podcast: PodcastMeta,
     val title: String,
     val keyTakeaways: List<String>,
+    val fullSummary: String,
     val buttonLabel: String = "Read Summary"
 )
 
